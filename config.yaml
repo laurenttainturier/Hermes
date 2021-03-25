@@ -1,0 +1,19 @@
+fourriere-refentiels:
+    database: fourriere-referentiels
+    host: 127.0.0.1
+    port: 5432
+    user: postgres
+    pwd: postgres
+
+fourriere-dossiers:
+    database: fourriere-dossiers
+    host: 127.0.0.1
+    port: 5432
+    user: postgres
+    pwd: postgres
+
+camunda:
+    url: http://localhost:8093/engine-rest
+    show_instances: /process-instance
+    move_instances: /modification/execute
+    process_def_id: id_workflow_fourriere:2:92760ba1-8192-11eb-967b-02422eb03685

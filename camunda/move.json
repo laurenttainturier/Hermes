@@ -1,0 +1,20 @@
+{
+  "processDefinitionId" : process_def_id,
+  "instructions": [
+    {
+      "type": "startAfterActivity",
+      "activityId": "id_hermes_remise_domaine"
+    },
+    {
+      "type": "cancel",
+      "activityId": "id_pre_siv",
+      "cancelCurrentActiveActivityInstances" : true
+    }
+  ],
+  "processInstanceIds": process_instance_ids,
+  "processInstanceQuery": {
+    "processDefinitionId": proces_def_id
+  },
+  "skipCustomListeners": true,
+  "annotation": "Move dossiers to remise au domaine"
+}

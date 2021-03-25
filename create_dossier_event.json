@@ -1,0 +1,78 @@
+{
+  "class": "V1CreateEvent",
+  "dateMiseAJour": "2021-03-15T14:00:19.292716Z",
+  "ficheVehicule": {
+    "vin": null,
+    "etat": {
+      "id": "a275d415-88bd-44ab-85f9-fd876825f408",
+      "etat": "BON_ETAT",
+      "detail": null,
+      "libelleCourt": null,
+      "idCorrelation": "6a716316-abb6-42e1-94d4-e2922582aaec"
+    },
+    "genre": {
+      "id": "1c2dea6f-5615-4be6-bd68-241ab668f95e",
+      "dicem": false,
+      "libelle": "VP"
+    },
+    "marque": {
+      "id": "b3d213ea-6cb2-4bdf-8c0f-3566e780502c",
+      "libelle": "PORSCHE",
+      "categorie": "Premium"
+    },
+    "modele": {
+      "id": "47ba9999-3475-49d5-a916-be0d629fa89d",
+      "libelle": "911",
+      "marqueId": "b3d213ea-6cb2-4bdf-8c0f-3566e780502c"
+    },
+    "numero": "AA-123-AA",
+    "portes": true,
+    "coffres": true,
+    "couleur": "ROUGE CLAIR",
+    "sansPlaque": null,
+    "observations": null,
+    "paysEtranger": null,
+    "nombreAntennes": null,
+    "objetsVisibles": null,
+    "posteCbVisible": null,
+    "autoRadioVisible": null,
+    "telephonePortable": null,
+    "marqueNonReference": false,
+    "modeleNonReference": false
+  },
+  "ficheFourriere": {
+    "dateEntree": "2021-03-10T14:19:16Z",
+    "dateEnlevement": "2021-03-10T14:19:14Z",
+    "idCorrelationFourriere": "ea7804ef-8628-435a-a660-e1ff92d256e7"
+  },
+  "ficheInfraction": {
+    "nuit": null,
+    "nigend": null,
+    "motifMef": {
+      "id": "ad52f8b0-8e8b-4ec9-a417-94a54ee845d4",
+      "nature": "Procédure de droit commun – garanties de paiement",
+      "motifMef": "Absence de paiement amende par conducteur non domicilié en France (L. 121-4-1) – droit commun",
+      "brancheDto": {
+        "id": "99a823d6-4dbe-4be1-91b5-762c0a4e020c",
+        "nature": "Droit commun",
+        "branche": "NORMALE",
+        "idCorrelation": "7123d1b4-4b89-4a37-81c1-95d1e900418e"
+      },
+      "idCorrelation": "4c1aaec4-1131-4158-ad6d-75dec3f94e77",
+      "natureLibelleCourt": "Droit commun"
+    },
+    "nomAgent": "Bob",
+    "lieuPrive": false,
+    "emailUnite": null,
+    "pluieOuNeige": null,
+    "dateRedaction": null,
+    "lieuEnlevement": "Bourg-en-Bresse",
+    "dateConstatation": "2021-03-10T14:18:22Z",
+    "communeEnlevement": "Bourg-en-Bresse (01000)",
+    "idCorrelationUniteFO": "3a77745f-f2a8-4e04-b759-b9d60e3340eb",
+    "nomAutoriteMainlevee": null,
+    "nomAutoritePrescriptrice": "Bob",
+    "qualiteAutoritePrescriptrice": "APJA",
+    "idCorrelationAutoriteFourriere": "1944b778-3eca-41e9-9d31-59b760994b2f"
+  }
+}

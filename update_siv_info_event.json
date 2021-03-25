@@ -1,0 +1,97 @@
+{
+  "class": "V2UpdateSivInformationEvent",
+  "dateMiseAJour": "2021-03-10T14:43:45.078068Z",
+  "sivInformation": {
+    "vehicule": {
+      "descriptionVehicule": {
+        "marque": {
+          "id": "80fdac43-1ed1-4a85-b7a8-8e48315df602",
+          "libelle": "FORD",
+          "categorie": null
+        },
+        "modele": {
+          "id": "0c8103e3-76cb-4ec9-bc07-c6fc007a98ff",
+          "libelle": "GALAXY",
+          "marqueId": "80fdac43-1ed1-4a85-b7a8-8e48315df602"
+        },
+        "couleur": null,
+        "energie": {
+          "id": "8835be6e-6efd-4f81-807a-3cb105d05a93",
+          "code": "ES",
+          "libelle": "Essence",
+          "libelleCourt": "Essence"
+        },
+        "codeGenre": "VP",
+        "puissanceCv": 9,
+        "typeVariante": "WGRZVSA17AP",
+        "placesAssises": 7,
+        "codeCarrosserieCe": "AF",
+        "codeCarrosserieNational": "CI"
+      },
+      "dateControleTechnique": null,
+      "identificationVehicule": {
+        "vin": "WF0GXXPSS05500010",
+        "cnit": "MFD1496A3128",
+        "numeroImmatriculation": "AA-123-AA",
+        "datePremiereImmatriculation": "2001-11-25T23:00:00Z"
+      }
+    },
+    "documents": [
+      {
+        "dateCi": null,
+        "volTitre": null,
+        "perteTitre": null,
+        "numeroFormule": null
+      },
+      {
+        "dateCi": "2010-10-21T22:00:00Z",
+        "volTitre": false,
+        "perteTitre": false,
+        "numeroFormule": null
+      }
+    ],
+    "personnesRattachees": [
+      {
+        "identite": {
+          "siren": null,
+          "siret": null,
+          "adresse": {
+            "pays": null,
+            "lieuDit": "1 1",
+            "typeVoie": "RUE",
+            "codeCedex": null,
+            "extension": null,
+            "codePostal": "75003",
+            "numeroVoie": "1",
+            "libelleVoie": "1",
+            "pointRemise": null,
+            "boitePostale": "1 1",
+            "libelleCedex": null,
+            "libelleCommune": "PARIS",
+            "complementAdresse": "1"
+          },
+          "prenomRgpdId": "9be17bbf-6fe6-4101-933d-96efc17ff9a2",
+          "raisonSociale": null,
+          "nomUsageRgpdId": "64aa759e-721e-481f-b7c2-527f2789715d",
+          "nomNaissanceRgpdId": "81617aac-51d3-4e4b-a780-323830ff751a"
+        },
+        "codeTypePersonne": "TITULAIRE",
+        "libelleTypePersonne": "titulaire"
+      }
+    ],
+    "situationAdministrative": {
+      "flags": {
+        "dvs": "false",
+        "ove": "false",
+        "pve": "false",
+        "gage": "false",
+        "otci": "false",
+        "suspendu": "true",
+        "vehiculeVole": "false"
+      },
+      "gages": [],
+      "declarationPve": null,
+      "dateDestruction": null
+    }
+  }
+}

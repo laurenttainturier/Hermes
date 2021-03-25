@@ -1,0 +1,232 @@
+{
+  "traitement": {
+    "abandon": {
+      "isAbandon": true,
+      "applicationDate": 1615387998.289218,
+      "decisionAbandon": 1615330800
+    },
+    "branches": [
+      {
+        "id": "99a823d6-4dbe-4be1-91b5-762c0a4e020c",
+        "nature": "Droit commun",
+        "branche": "NORMALE",
+        "idCorrelation": "7123d1b4-4b89-4a37-81c1-95d1e900418e"
+      }
+    ],
+    "mainLevee": null,
+    "classement": "ALIENATION",
+    "listStatut": [
+      "ENREGISTRE",
+      "A_NOTIFIER",
+      "NOTIFICATION_ENVOYEE",
+      "NOTIFIE",
+      "A_REMETTRE_AUX_DOMAINES"
+    ],
+    "icSentToSiv": null,
+    "notification": {
+      "dateEnvoi": 1615334400,
+      "dateRetour": 1615334400,
+      "etatDistribution": "RECEPTION_LRAR"
+    },
+    "dateMiseAJour": 1615387998.289218,
+    "hasBeenUpdatedByAF": null,
+    "isImpossibleToNotify": null,
+    "expediteurNotification": null,
+    "bonEnlevementGardienData": null,
+    "hasPassedByClassementManuel": null,
+    "dateProlongationDecisionProcureur": null
+  },
+  "ficheVehicule": {
+    "etat": {
+      "id": "a275d415-88bd-44ab-85f9-fd876825f408",
+      "etat": "BON_ETAT",
+      "detail": null,
+      "libelleCourt": null,
+      "idCorrelation": "6a716316-abb6-42e1-94d4-e2922582aaec"
+    },
+    "accessoires": {
+      "observations": null,
+      "nombreAntennes": null,
+      "objetsVisibles": null,
+      "posteCbVisible": null,
+      "autoRadioVisible": null,
+      "telephonePortable": null
+    },
+    "description": {
+      "type": null,
+      "marque": {
+        "id": "b3d213ea-6cb2-4bdf-8c0f-3566e780502c",
+        "libelle": "PORSCHE",
+        "categorie": "Premium"
+      },
+      "modele": {
+        "id": "47ba9999-3475-49d5-a916-be0d629fa89d",
+        "marque": "b3d213ea-6cb2-4bdf-8c0f-3566e780502c",
+        "libelle": "911"
+      },
+      "couleur": "ROUGE CLAIR",
+      "proprietaire": null,
+      "genreSimplifie": {
+        "id": "1c2dea6f-5615-4be6-bd68-241ab668f95e",
+        "dicem": false,
+        "libelle": "VP",
+        "formatsPlaque": [
+          "SIV",
+          "FNI",
+          "ANCIEN",
+          "W_GARAGE"
+        ],
+        "idCorrelation": "6fe70084-01cb-44cc-b808-2fe2871859c2"
+      },
+      "modeleNonReference": false,
+      "marqueNonReferencee": false
+    },
+    "verrouillage": {
+      "portes": true,
+      "coffres": true
+    },
+    "immatriculation": {
+      "vin": null,
+      "numero": "AA-123-AA",
+      "sansPlaque": null,
+      "paysEtranger": null
+    }
+  },
+  "ficheFourriere": {
+    "dateEntree": 1615385956,
+    "numeroFacture": null,
+    "dateEnlevement": 1615385954,
+    "idCorrelationFourriere": "ea7804ef-8628-435a-a660-e1ff92d256e7"
+  },
+  "sivInformation": {
+    "vehicule": {
+      "description": {
+        "marque": {
+          "id": "80fdac43-1ed1-4a85-b7a8-8e48315df602",
+          "libelle": "FORD",
+          "categorie": null
+        },
+        "modele": {
+          "id": "0c8103e3-76cb-4ec9-bc07-c6fc007a98ff",
+          "marque": "80fdac43-1ed1-4a85-b7a8-8e48315df602",
+          "libelle": "GALAXY"
+        },
+        "couleur": null,
+        "energie": {
+          "id": "8835be6e-6efd-4f81-807a-3cb105d05a93",
+          "code": "ES",
+          "libelle": "Essence",
+          "libelleCourt": "Essence"
+        },
+        "codeGenre": "VP",
+        "puissanceCv": 9,
+        "typeVariante": "WGRZVSA17AP",
+        "placesAssises": 7,
+        "codeCarrosserieCe": "AF",
+        "codeCarrosserieNational": "CI"
+      },
+      "identification": {
+        "vin": "WF0GXXPSS05500010",
+        "cnit": "MFD1496A3128",
+        "numeroImmatriculation": "AA-123-AA",
+        "datePremiereImmatriculation": 1006729200
+      },
+      "dateControleTechnique": null
+    },
+    "documents": [
+      {
+        "dateCi": null,
+        "volTitre": null,
+        "perteTitre": null,
+        "numeroFormule": null
+      },
+      {
+        "dateCi": 1287698400,
+        "volTitre": false,
+        "perteTitre": false,
+        "numeroFormule": null
+      }
+    ],
+    "personnesRattachees": [
+      {
+        "sivIdentite": {
+          "siren": null,
+          "siret": null,
+          "prenom": "79be63d0-26e9-4d77-8f19-6eb431e488a0",
+          "adresse": {
+            "pays": null,
+            "lieuDit": "1 1",
+            "typeVoie": "RUE",
+            "codeCedex": null,
+            "extension": null,
+            "codePostal": "75003",
+            "numeroVoie": "1",
+            "libelleVoie": "1",
+            "pointRemise": null,
+            "boitePostale": "1 1",
+            "libelleCedex": null,
+            "libelleCommune": "PARIS",
+            "complementAdresse": "1"
+          },
+          "nomUsage": "ca18c994-694f-4c87-8e80-410244d8c829",
+          "nomNaissance": "ad9bf257-27c9-41b4-844c-37b6cca0b892",
+          "raisonSociale": null
+        },
+        "codeTypePersonne": "TITULAIRE",
+        "libelleTypePersonne": "titulaire"
+      }
+    ],
+    "situationAdministrative": {
+      "flags": {
+        "dvs": "false",
+        "ove": "false",
+        "pve": "false",
+        "gage": "false",
+        "otci": "false",
+        "suspendu": "true",
+        "vehiculeVole": "false"
+      },
+      "gages": [],
+      "declarationPve": null,
+      "dateDestruction": null
+    }
+  },
+  "sortieVehicule": null,
+  "ficheInfraction": {
+    "nuit": null,
+    "agent": {
+      "nigend": null,
+      "nomAgent": "Bob"
+    },
+    "motifMef": {
+      "id": "ad52f8b0-8e8b-4ec9-a417-94a54ee845d4",
+      "nature": "Procédure de droit commun – garanties de paiement",
+      "branche": {
+        "id": "99a823d6-4dbe-4be1-91b5-762c0a4e020c",
+        "nature": "Droit commun",
+        "branche": "NORMALE",
+        "idCorrelation": "7123d1b4-4b89-4a37-81c1-95d1e900418e"
+      },
+      "motifMef": "Absence de paiement amende par conducteur non domicilié en France (L. 121-4-1) – droit commun",
+      "idCorrelation": "4c1aaec4-1131-4158-ad6d-75dec3f94e77",
+      "natureLibelleCourt": "Droit commun"
+    },
+    "lieuPrive": false,
+    "emailUnite": null,
+    "pluieOuNeige": null,
+    "dateRedaction": null,
+    "lieuEnlevement": "Bourg-en-Bresse",
+    "dateConstatation": 1615385902,
+    "autoriteMainlevee": {
+      "description": null
+    },
+    "communeEnlevement": "Bourg-en-Bresse (01000)",
+    "idCorrelationUniteFO": "3a77745f-f2a8-4e04-b759-b9d60e3340eb",
+    "autoritePrescriptrice": {
+      "nomAutorite": "Bob",
+      "qualiteAutorite": "APJA"
+    },
+    "idCorrelationAutoriteFourriere": "1944b778-3eca-41e9-9d31-59b760994b2f"
+  },
+  "hermesInformationDto": null
+}
